@@ -1,0 +1,29 @@
+### Tambah data mahasiswa
+POST http://127.0.0.1:8000/api/mahasiswa
+Content-Type: application/json
+Accept: application/json
+
+{
+    "nim": "123456708",
+    "nama": "Raditya Prabawa",
+    "jurusan": "Teknik Informatika",
+    "angkatan": "2023",
+    "email": "raditya@example.com"
+}
+
+### Lihat semua data mahasiswa
+GET http://127.0.0.1:8000/api/mahasiswa
+Accept: application/json
+
+### Update data mahasiswa
+PUT http://127.0.0.1:8000/api/mahasiswa/1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "nama": "Raditya Prabawa"
+}
+
+### Hapus data mahasiswa
+DELETE http://127.0.0.1:8000/api/mahasiswa/3
+Accept: application/json
