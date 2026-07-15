@@ -47,7 +47,7 @@ Pastikan sudah terinstall di komputer kamu:
 1. **Clone repository ini**
    ```bash
    git clone https://github.com/dittprabawa/mahasiswa_data.git
-   cd NAMA-REPO
+   cd mahasiswa_data
    ```
 
 2. **Install dependencies**
